@@ -1,17 +1,14 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Ventas de productos en línea',
+    descripcionCurso:
+      'Para plantear estrategias exitosas de ventas en línea es de gran importancia conocer cuáles son las diferencias entre productos y servicios, al igual que la definición de atributos, beneficios y características especiales y saber cuál es el papel que cumplen sus calificaciones y funciones.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
       },
     ],
   },
@@ -32,31 +29,96 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Productos y servicios',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Concepto de producto en el marketing digital',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Atributos, beneficios y valor agregado',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Calificación y funciones de los productos',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Tipos de producto: tangibilidad y usabilidad',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Embudo de ventas AIDA',
         desarrolloContenidos: true,
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ventas en línea',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipos de ventas',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Técnicas y aplicabilidad',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Protocolo de venta y procesos',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Estrategia de ventas en medios digitales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Diseño de una estrategia de ventas',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Metas, tácticas e implementación',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Establecimiento de términos y condiciones',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -98,38 +160,122 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Díaz, M. (2018). Cómo crear llamadas a la acción que conviertan usuarios en clientes.',
+      link:
+        'https://www.fuegoyamana.com/llamadas-a-la-accion-convertir-clientes/',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      descarga: '/downloads/prueba.pdf',
+        'Hotmart. (2021). ¿Qué es el marketing digital? Guía completa con todo lo que necesitas saber.',
+      link: 'https://hotmart.com/es/blog/que-es-marketing-digital',
+    },
+    {
+      referencia:
+        'Iberdrola. (2020). Industria 4.0: ¿qué tecnologías marcarán la Cuarta Revolución Industrial?',
+      link: 'https://www.iberdrola.com/innovacion/cuarta-revolucion-industrial',
+    },
+    {
+      referencia:
+        'Salecycle. (2022). 17 ejemplos de upselling y cross-selling para vender más.',
+      link:
+        'https://www.salecycle.com/es/blog/guias/ejemplos-upselling-cross-selling/ ',
+    },
+    {
+      referencia:
+        'Santander. (2022). Método AIDA: qué es y cómo aplicarlo en marketing y ventas. ',
+      link: 'https://www.becas-santander.com/es/blog/metodo-aida.html',
+    },
+    {
+      referencia:
+        'Romero, P., J. (2018). ¿Qué es un embudo de ventas y cómo gestionarlo en tu negocio?',
+      link: 'https://www.emprendices.co/embudo-ventas-gestionarlo-negocio/',
+    },
+    {
+      referencia:
+        'Silva (2021). Aumentar ventas por internet: 3 poderosas estrategias para tu empresa. ',
+      link: 'https://www.zendesk.com.mx/blog/aumentar-ventas-internet/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Bundle',
+      significado:
+        'técnica de venta consistente en sugerir la compra de un grupo de productos a un usuario que ha mostrado un interés previo por alguno de ellos de manera individual.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Call to action',
+      significado:
+        '(llamada a la acción) es un botón o enlace situado en nuestro <em>site</em> que busca atraer clientes potenciales y convertirlos en clientes finales.',
+    },
+    {
+      termino: 'Campañas digitales',
+      significado:
+        'campaña de mercadeo que se desarrolla dentro de entornos digitales.',
+    },
+    {
+      termino: 'Free trial',
+      significado:
+        'estrategia de promoción de ventas que se basa en atraer a nuevos consumidores a partir de probar la marca una vez sin necesidad de pagar durante un tiempo definido y limitado.',
+    },
+    {
+      termino: 'KPI',
+      significado:
+        '<em>Key Performance Indicators</em> son todas las variables, unidades y factores de medición para generar una estrategia de marketing.',
+    },
+    {
+      termino: '<em>Landing Pages</em>',
+      significado:
+        'página web en donde el usuario aterriza para conocer un producto, servicio, novedad o promoción.',
+    },
+    {
+      termino: '<em>Marketing</em>',
+      significado:
+        'conjunto de estrategias cuya finalidad es facilitar la venta de un producto o servicios dentro de un entorno determinado.',
+    },
+    {
+      termino: '<em>Marketplace</em>',
+      significado:
+        'plataforma en donde diferentes tiendas pueden anunciar sus productos, ofreciendo un abanico de opciones de consumo al cliente.',
+    },
+    {
+      termino: 'Necesidades de los clientes',
+      significado:
+        'se definen como los factores de influencia que los impulsan a comprar un determinado producto o servicio. ',
+    },
+    {
+      termino: 'Público objetivo',
+      significado:
+        'segmento de la población a la que va encaminada una estrategia de <em>marketing</em>.',
+    },
+    {
+      termino: 'Redes sociales',
+      significado:
+        'plataformas virtuales creadas en línea para que personas u organizaciones que comparten intereses en común se unan.',
+    },
+    {
+      termino: '<em>Top of mind</em>',
+      significado:
+        'concepto que describe el pensamiento inmediato que un consumidor tiene al asociar una necesidad con un producto.',
     },
   ],
-  referencias: [
+  complementario: [
     {
+      tema: '2. Embudo de ventas AIDA',
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Romero, P., J. (2018). ¿Qué es un embudo de ventas y cómo gestionarlo en tu negocio?',
+      tipo: 'Artículo',
+      link: 'https://www.emprendices.co/embudo-ventas-gestionarlo-negocio/',
+    },
+    {
+      tema: '2. Embudo de ventas AIDA',
+      referencia:
+        'Díaz, M. (2018). Cómo crear llamadas a la acción que conviertan usuarios en clientes.',
+      tipo: 'Artículo',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.fuegoyamana.com/llamadas-a-la-accion-convertir-clientes/',
     },
   ],
   creditos: {
@@ -156,41 +302,36 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: '',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
