@@ -151,7 +151,7 @@
         figure.text-center
           img(src="@/assets/curso/tema4/10.svg" data-aos="fade-up" style="position:relative;display:inline;max-width:80px;")
       .col-md-7(style="place-self:center")
-        p.mb-0.text-white(data-aos="fade-up") Como empresa, es fundamental tener en cuenta los derechos de compradores y vendedores con el fin de no violentar la ley que traiga consecuencias como sanciones impuestas por la Superintendencia de Industria y Comercio
+        p.mb-0.text-white(data-aos="fade-up") Como empresa, es fundamental tener en cuenta los derechos de compradores y vendedores con el fin de no violentar la ley que traiga consecuencias como sanciones impuestas por la Superintendencia de Industria y Comercio.
       .col-md-3.text-center(style="place-self:center")
         a.boton.color-acento-botones(href="https://www.sic.gov.co/" target="_blank")
           span Ir al sitio web
