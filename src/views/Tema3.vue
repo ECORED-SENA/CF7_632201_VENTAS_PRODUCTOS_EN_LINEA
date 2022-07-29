@@ -5,12 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Ventas en línea 
+      h1 Ventas en línea
 
     .row.cont_fondo_t_3_1(style="position:relative;")
       .col-md-7(style="place-self:center;")
         p(data-aos="fade-up" style="position:relative;") Si bien no existen fórmulas mágicas para tener éxito en las ventas, se presentan diversas alternativas y técnicas que ayuden al experto en ventas en líneas a mejorar las posibilidades de resultados de objetivos.
-        p.mt-4(data-aos="fade-up" style="position:relative") #[strong Para empezar, es importante identificar algunas o clases de ventas que se realizan a través de canales digitales.] 
+        p.mt-4(data-aos="fade-up" style="position:relative") #[strong Para empezar, es importante identificar algunas o clases de ventas que se realizan a través de canales digitales.]
       .col-md-5
         figure.text-center
           img(src="@/assets/curso/tema3/2.svg" data-aos="fade-left" style="position:relative;display:inline;max-width:300px;")
@@ -19,7 +19,7 @@
     .titulo-segundo.mt-5
       h2#t_3_1 3.1 Tipos de ventas
 
-    p(data-aos="fade-up") Hay diversos criterios para establecer los parámetros para indicar los tipos de ventas; para empezar, se debe tener claridad en las configuraciones o posibilidades de relaciones entre vendedor y comprador, esta se da principalmente entre negocio (business), clientes (consumer) y otros que si bien no es el enfoque principal, también se dan las relaciones con empleados (employee) y entidades gubernamentales (government).
+    p(data-aos="fade-up") Hay diversos criterios para establecer los parámetros para indicar los tipos de ventas; para empezar, se debe tener claridad en las configuraciones o posibilidades de relaciones entre vendedor y comprador, esta se da principalmente entre negocio #[em (business)], clientes #[em (consumer)] y otros que si bien no es el enfoque principal, también se dan las relaciones con empleados #[em (employee)] y entidades gubernamentales #[em (government)].
 
     p.mt-4(data-aos="fade-up") Aquí solo se mencionará el tipo de ventas bajo el criterio de relaciones comerciales que se establecen entre diversas entidades, pues en otros componentes se ahonda un poco al respecto. #[strong(style="background-color:#ECE5F7;padding:2px;") La clasificación de las ventas por medio del modelo de negocio es la siguiente:]
 
@@ -35,7 +35,7 @@
         .tarjeta.color-acento-botones.p-3(x="62%" y="55%" numero="3")
           p #[em Business to government:] surge cuando las empresas venden productos o prestan servicios al Gobierno en sus diferentes niveles (municipal, nacional, departamental y entidades oficiales). En el caso colombiano las compras de entidades del Gobierno están normalizadas bajo las compras y contrataciones estatales.
         .tarjeta.color-acento-botones.p-3(x="88%" y="15%" numero="4")
-          p #[em Business to employee:] son aquellas que se dan entre el negocio y sus empleados. por lo general, busca beneficios y motivación para los colaboradores a través de descuentos, ventajas exclusivas, etc.
+          p #[em Business to employee:] son aquellas que se dan entre el negocio y sus empleados. Por lo general, busca beneficios y motivación para los colaboradores a través de descuentos, ventajas exclusivas, etc.
 
       .titulo-quinto.color-acento-contenido.text-center.mt-5(style="position:relative")
         h4.mt-5(style="position:relative") Las ventas también se clasifican por la interacción con el cliente así:
@@ -58,16 +58,16 @@
           .col-8
             img(src='@/assets/curso/tema3/7.svg' alt='')
         h3.mt-5 Venta cruzada
-        p.mb-0 También llamada cross-selling consiste en fomentar la venta de productos complementarios a un producto principal que el consumidor está comprando. Por ejemplo, una funda para un teléfono, un ratón inalámbrico para un portátil, etc. (Salecycle, 2022).
+        p.mb-0 También llamada #[em cross-selling] consiste en fomentar la venta de productos complementarios a un producto principal que el consumidor está comprando. Por ejemplo, una funda para un teléfono, un ratón inalámbrico para un portátil, etc. (Salecycle, 2022).
       .tarjeta.color-acento-botones.p-4(style="background-color:#ECE5F7;min-height:550px;")
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema3/8.svg' alt='')
         h3.mt-5 Venta adicional
-        p.mb-0 También conocida como venta sugestiva o up selling, busca comercializar productos similares a los que una persona desea comprar o ya haya comprado, pero con mayores características y precio. Por ejemplo, un teléfono similar al que está mirando, pero de la siguiente gama por un poco más de dinero.
+        p.mb-0 También conocida como venta sugestiva o #[em up selling], busca comercializar productos similares a los que una persona desea comprar o ya haya comprado, pero con mayores características y precio. Por ejemplo, un teléfono similar al que está mirando, pero de la siguiente gama por un poco más de dinero.
 
     .cajon.color-primario.p-4.mt-5(style="background-color:#DEF2F4;")
-      p.mb-0(data-aos="fade-up") Tanto la venta cruzada como la adicional, son técnicas que buscan que el cliente compre más. Tanto la fuerza de venta como las plataformas de e-commerce, deben tener presente estas técnicas procurando mejorar la comercialización sin perder el inventario de productos disponibles para el mercado.
+      p.mb-0(data-aos="fade-up") Tanto la venta cruzada como la adicional, son técnicas que buscan que el cliente compre más. Tanto la fuerza de venta como las plataformas de #[em e-commerce], deben tener presente estas técnicas procurando mejorar la comercialización sin perder el inventario de productos disponibles para el mercado.
 
     p.mt-5(data-aos="fade-up") También se presentan otros tipos de ventas que surgen de la necesidad que tiene el mercado de conocer su producto o servicio, #[strong estas ventas se activan si el cliente conoce el producto previamente a detalle, este tipo de ventas son:]
 
@@ -78,16 +78,16 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/9.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h3.text-center Venta inbound
-              p.mt-5 Las empresas que usan esta técnica buscan educar a clientes potenciales ya sea en temas técnicos del gremio, de esa manera se fortalece la confianza y presencia de marca ante un público especializado o que tengan los mismos gustos o pasiones. En la venta inbound el cliente llega a la marca; un ejemplo de estas ventas, son las ruedas de negocios o seminarios web, ferias, etc.
+              h3.text-center Venta #[em inbound]
+              p.mt-5 Las empresas que usan esta técnica buscan educar a clientes potenciales ya sea en temas técnicos del gremio, de esa manera se fortalece la confianza y presencia de marca ante un público especializado o que tengan los mismos gustos o pasiones. En la venta #[em inbound] el cliente llega a la marca; un ejemplo de estas ventas, son las ruedas de negocios o seminarios web, ferias, etc.
       .col-lg-6.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/10.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              h3.text-white.text-center Venta outbound
-              p.mt-5.text-white Su traducción es “ventas activas”, y ocurre cuando la empresa o el representante de ventas busca al comprador, contrario al inbound donde el cliente llega, para hacer outbound sales, es necesario que la fuerza de ventas tenga claridad sobre cuál es el target de la marca, para accionarlas de manera más estratégica y asertiva. Por ejemplo, una campaña de ADS en redes sociales.
+              h3.text-white.text-center Venta #[em outbound]
+              p.mt-5.text-white Su traducción es “ventas activas”, y ocurre cuando la empresa o el representante de ventas busca al comprador, contrario al #[em inbound] donde el cliente llega, para hacer #[em outbound sales], es necesario que la fuerza de ventas tenga claridad sobre cuál es el target de la marca, para accionarlas de manera más estratégica y asertiva. Por ejemplo, una campaña de ADS en redes sociales.
 
     .titulo-quinto.color-acento-contenido.text-center.mt-5(style="position:relative")
       h4.mt-5(style="position:relative") A nivel de profundidad el experto explica en el siguiente video los conceptos vistos anteriormente:
@@ -102,17 +102,17 @@
       h2#t_3_2 3.2 Técnicas y aplicabilidad
     .row
       .col-md-6
-        p(data-aos="fade-up") La evolución sigue tal como lo dice #[strong Iberdrola (2020)]
+        p(data-aos="fade-up") La evolución sigue tal como lo dice #[strong Iberdrola (2020)].
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left(data-aos="fade-right")
-            h4.mb-0(data-aos="fade-up") la industria 4.0 es el origen de una nueva revolución ‒la conocida como cuarta Revolución Industrial‒ que mezcla vanguardistas técnicas de producción con sistemas inteligentes que se integran con las organizaciones y las personas
+            h4.mb-0(data-aos="fade-up") La industria 4.0 es el origen de una nueva revolución ‒la conocida como cuarta Revolución Industrial‒ que mezcla vanguardistas técnicas de producción con sistemas inteligentes que se integran con las organizaciones y las personas.
             i.fas.fa-quote-right(data-aos="fade-left")
       .col-md-6
         figure.text-center
           img(src="@/assets/curso/tema3/11.svg" data-aos="fade-left" style="position:relative;display:inline;max-width:350px;")
 
-    p.mt-5(data-aos="fade-up") esta revolución entre otros fenómenos sociales y económicos, ha acelerado la transformación digital tanto de los ciudadanos como de las empresas y organizaciones; el comercio electrónico ha tenido un crecimiento exponencial y cada vez, son más recursos y millones diarios que transan en internet y plataformas de ventas. En el contexto nacional, en comparación con Brasil, México y Argentina, aún falta crecer, sin embargo, esta realidad va cambiando a pasos acelerados.
+    p.mt-5(data-aos="fade-up") Esta revolución entre otros fenómenos sociales y económicos, ha acelerado la transformación digital tanto de los ciudadanos como de las empresas y organizaciones; el comercio electrónico ha tenido un crecimiento exponencial y cada vez, son más recursos y millones diarios que transan en internet y plataformas de ventas. En el contexto nacional, en comparación con Brasil, México y Argentina, aún falta crecer, sin embargo, esta realidad va cambiando a pasos acelerados.
 
     .row.mt-5
       .col-md-6(style="place-self:center;")
@@ -120,7 +120,7 @@
           img(src="@/assets/curso/tema3/12.svg" data-aos="fade-right" style="position:relative;display:inline;max-width:350px;")
       .col-md-6
         p.mt-4.parrafo_fondo31(data-aos="fade-up" style="position:relative;z-index:1;") Los consumidores han descubierto la facilidad, comodidad, ahorro, disponibilidad y otra cantidad de ventajas que significa hacer compras por internet. Por lo que cada día no solo aumenta la cantidad de personas comprando on line, también el monto en dinero se viene incrementando y las barreras como la desconfianza e inseguridad se han venido superando.
-        p.mt-4(data-aos="fade-up") Lo anterior no significa que instaurar un negocio soportado en plataformas tecnológicas de ventas sea exitoso por el hecho de crearlo, pues parte del crecimiento del e-commerce ha sido la sobreoferta de negocios tratando de hacer lo mismo. Hay que tener conocimientos técnicos para aplicar las técnicas de venta en entornos digitales y tener promesas de valor ganadoras.
+        p.mt-4(data-aos="fade-up") Lo anterior no significa que instaurar un negocio soportado en plataformas tecnológicas de ventas sea exitoso por el hecho de crearlo, pues parte del crecimiento del #[em e-commerce] ha sido la sobreoferta de negocios tratando de hacer lo mismo. Hay que tener conocimientos técnicos para aplicar las técnicas de venta en entornos digitales y tener promesas de valor ganadoras.
         p.mt-4(data-aos="fade-up") Las técnicas de ventas deberían establecer prioridades claras que todos entienden, aportar directrices qué seguir y marcar unos objetivos hacia cuales avanzar. Así, se podrían definir cinco elementos importantes que apuntan las acciones y técnicas de ventas.
 
     .titulo-sexto.color-acento-contenido.mt-5
@@ -128,7 +128,7 @@
 
     .col-md-6.m-auto.mt-4
       figure
-        img(src="@/assets/curso/tema3/13.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up")
 
     p.mt-5(data-aos="fade-up") Cuando se crea un negocio de ventas, montando las plataformas y productos de manera apresurada y ejecutando acciones sin tener visión técnica o estratégica, se tiene una alta probabilidad de que los resultados no sean los esperados, es como saber conducir, pero sin tener idea hacia dónde ir ni conocer las carreteras ni tener mapa, esto supone un gran riesgo. No se deberían empezar las acciones de venta sin tener algunos aspectos claros para reducir la incertidumbre y aumentar la posibilidad de éxito.
 

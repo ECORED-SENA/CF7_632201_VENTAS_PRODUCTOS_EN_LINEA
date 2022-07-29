@@ -7,7 +7,7 @@
         span 2
       h1 Embudo de ventas AIDA
 
-    p(data-aos="fade-up") El embudo de ventas AIDA es un modelo mediante el cual se pueden identificar las diferentes etapas de conducta y conocimiento por las cuales un cliente pasa un proceso de compra o adquisición de un producto o servicio determinado (Santander, 2022). Sus siglas hacen referencia a los conceptos de atención, interés, deseo y acción y se llama embudo puesto que en atención es mucho más grande el tráfico que en ventas como se verá luego. El principal objetivo de este modelo es el de adaptar las estrategias de marketing y ventas de una compañía para que sus consumidores puedan pasar de una etapa a otra de manera satisfactoria y sea escalable y repetitivo para la empresa.
+    p(data-aos="fade-up") El embudo de ventas AIDA es un modelo mediante el cual se pueden identificar las diferentes etapas de conducta y conocimiento por las cuales un cliente pasa un proceso de compra o adquisición de un producto o servicio determinado (Santander, 2022). Sus siglas hacen referencia a los conceptos de atención, interés, deseo y acción y se llama embudo puesto que en atención es mucho más grande el tráfico que en ventas como se verá luego. El principal objetivo de este modelo es el de adaptar las estrategias de #[em marketing] y ventas de una compañía para que sus consumidores puedan pasar de una etapa a otra de manera satisfactoria y sea escalable y repetitivo para la empresa.
 
     .titulo-sexto.color-acento-contenido.mt-5
       p.mb-0 #[strong Figura 1] Modelo AIDA
@@ -23,7 +23,7 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/7yac0b_8Gcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      p.mt-5(data-aos="fade-up" style="position:relative;") Un embudo de ventas AIDA permite atraer a nuevos clientes al negocio o hacer que migren desde la competencia y, a su vez, puede impactar a diferentes áreas de una compañía, es por esto que es posible contar con un embudo para marketing, publicidad o ventas. Los embudos son una forma muy utilizada por los equipos de ventas y mercadeo de convertir potenciales clientes en consumidores para la marca. Esto sucede gracias a que este modelo permite identificar en qué momento del ciclo de ventas se encuentra un consumidor prospecto y, de acuerdo con esa información, se pueden tomar acciones que repercutan positivamente en ella. De la misma forma, impactará y dará resultados positivos en términos financieros, mejorará oportunidades y canales de venta, clasificación de clientes potenciales.
+      p.mt-5(data-aos="fade-up" style="position:relative;") Un embudo de ventas AIDA permite atraer a nuevos clientes al negocio o hacer que migren desde la competencia y, a su vez, puede impactar a diferentes áreas de una compañía, es por esto que es posible contar con un embudo para #[em marketing], publicidad o ventas. Los embudos son una forma muy utilizada por los equipos de ventas y mercadeo de convertir potenciales clientes en consumidores para la marca. Esto sucede gracias a que este modelo permite identificar en qué momento del ciclo de ventas se encuentra un consumidor prospecto y, de acuerdo con esa información, se pueden tomar acciones que repercutan positivamente en ella. De la misma forma, impactará y dará resultados positivos en términos financieros, mejorará oportunidades y canales de venta, clasificación de clientes potenciales.
 
       p.mt-5(data-aos="fade-up" style="position:relative") #[strong A continuación, se hará una descripción de las cuatro etapas de un modelo AIDA en detalle:]
 
@@ -76,7 +76,7 @@
                   iframe(width="560" height="315" src="https://www.youtube.com/embed/gIABpHV37bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           #caja4_tema2(style="display:none;")
             h4(style="color:#CC6600;border-left:7px #CC6600 solid;padding:10px;") Acción
-            p.mt-4 Es cuando la persona se vuelve cliente y se convierte por medio del objetivo presentado inicialmente por ejemplo, se vuelve seguidor de la marca. 
+            p.mt-4 Es cuando la persona se vuelve cliente y se convierte por medio del objetivo presentado inicialmente por ejemplo, se vuelve seguidor de la marca.
             p.mt-5 #[strong Objetivo fase:]
             p Convertir a la persona en cliente.
             a.boton.color-acento-botones.texto-blanco.mt-5(@click.prevent="modal_tema2_4 = true")

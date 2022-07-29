@@ -201,12 +201,12 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Bundle',
+      termino: '<em>Bundle</em>',
       significado:
         'técnica de venta consistente en sugerir la compra de un grupo de productos a un usuario que ha mostrado un interés previo por alguno de ellos de manera individual.',
     },
     {
-      termino: 'Call to action',
+      termino: '<em>Call to action</em>',
       significado:
         '(llamada a la acción) es un botón o enlace situado en nuestro <em>site</em> que busca atraer clientes potenciales y convertirlos en clientes finales.',
     },
@@ -216,7 +216,7 @@ export default {
         'campaña de mercadeo que se desarrolla dentro de entornos digitales.',
     },
     {
-      termino: 'Free trial',
+      termino: '<em>Free trial</em>',
       significado:
         'estrategia de promoción de ventas que se basa en atraer a nuevos consumidores a partir de probar la marca una vez sin necesidad de pagar durante un tiempo definido y limitado.',
     },
@@ -302,30 +302,49 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: '',
+        nombre: 'Carlos Julian Ramirez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Lizeth Karina Manchego',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
