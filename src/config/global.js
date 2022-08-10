@@ -190,7 +190,7 @@ export default {
     },
     {
       referencia:
-        'Romero, P., J. (2018). ¿Qué es un embudo de ventas y cómo gestionarlo en tu negocio?',
+        'Romero, P., J. (2018). ¿Qué es el «Embudo de Ventas» y Cómo Gestionarlo en tu Negocio?',
       link: 'https://www.emprendices.co/embudo-ventas-gestionarlo-negocio/',
     },
     {
@@ -265,7 +265,7 @@ export default {
     {
       tema: '2. Embudo de ventas AIDA',
       referencia:
-        'Romero, P., J. (2018). ¿Qué es un embudo de ventas y cómo gestionarlo en tu negocio?',
+        'Romero, P., J. (2018). ¿Qué es el «Embudo de Ventas» y Cómo Gestionarlo en tu Negocio?',
       tipo: 'Artículo',
       link: 'https://www.emprendices.co/embudo-ventas-gestionarlo-negocio/',
     },

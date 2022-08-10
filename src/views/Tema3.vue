@@ -10,7 +10,7 @@
     .row.cont_fondo_t_3_1(style="position:relative;")
       .col-md-7(style="place-self:center;")
         p(data-aos="fade-up" style="position:relative;") Si bien no existen fórmulas mágicas para tener éxito en las ventas, se presentan diversas alternativas y técnicas que ayuden al experto en ventas en líneas a mejorar las posibilidades de resultados de objetivos.
-        p.mt-4(data-aos="fade-up" style="position:relative") #[strong Para empezar, es importante identificar algunas o clases de ventas que se realizan a través de canales digitales.]
+        p.mt-4(data-aos="fade-up" style="position:relative") #[strong Para empezar, es importante identificar algunas clases de ventas que se realizan a través de canales digitales.]
       .col-md-5
         figure.text-center
           img(src="@/assets/curso/tema3/2.svg" data-aos="fade-left" style="position:relative;display:inline;max-width:300px;")

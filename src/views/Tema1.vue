@@ -194,7 +194,7 @@
                   | Buen servicio.
                 li(style="position:relative")
                   i.fas.fa-check(style="color:#8C5BE1;")
-                  | Mejorar la imagen del establecimiento o #[em marketplace] donde se encuentra albergado el producto.
+                  | Mejorar la imagen del establecimiento o &nbsp; #[em marketplace]  &nbsp; donde se encuentra albergado el producto.
                 li(style="position:relative")
                   i.fas.fa-check(style="color:#8C5BE1;")
                   | Mejorar la imagen digital del entorno virtual que albergue el producto.
@@ -235,7 +235,7 @@
 
     .row.mt-5
       .col-md-7
-        p(data-aos="fade-up") Dependiendo tanto de la calidad del producto o servicio y de cuánto se haya suplido a necesidad expresada, los clientes tendrán la oportunidad de realizar una retroalimentación de su experiencia de compra y uso, ya sea mediante herramientas cuantitativas #[span(style="background-color:#ECE5F7;") (puntuaciones, estrellas y encuestas) o herramientas cualitativas (reseñas, descripciones o comentarios)]. Así mismo, esta retroalimentación servirá como información inicial para los nuevos clientes que se encuentren en la etapa de precompra y deseen acceder a testimonios que hayan tenido usuarios anteriores. Sin embargo, los clientes no son los únicos beneficiarios de esta información y, por el contrario, son las compañías las que tendrán la oportunidad de aplicar esta retroalimentación para actualizar, incluir funcionalidades o mejoramientos tanto en los productos y servicios que están vendiendo, como en la experiencia de compra y en el servicio posventa que ofrecen. El uso que se le dé a esta información impactará directamente en las ventas, convirtiéndose en uno de los factores más importantes dentro de la cadena de suministro de una compañía.
+        p(data-aos="fade-up") Dependiendo tanto de la calidad del producto o servicio y de cuánto se haya suplido la necesidad expresada, los clientes tendrán la oportunidad de realizar una retroalimentación de su experiencia de compra y uso, ya sea mediante herramientas cuantitativas #[span(style="background-color:#ECE5F7;") (puntuaciones, estrellas y encuestas) o herramientas cualitativas (reseñas, descripciones o comentarios)]. Así mismo, esta retroalimentación servirá como información inicial para los nuevos clientes que se encuentren en la etapa de precompra y deseen acceder a testimonios que hayan tenido usuarios anteriores. Sin embargo, los clientes no son los únicos beneficiarios de esta información y, por el contrario, son las compañías las que tendrán la oportunidad de aplicar esta retroalimentación para actualizar, incluir funcionalidades o mejoramientos tanto en los productos y servicios que están vendiendo, como en la experiencia de compra y en el servicio posventa que ofrecen. El uso que se le dé a esta información impactará directamente en las ventas, convirtiéndose en uno de los factores más importantes dentro de la cadena de suministro de una compañía.
       .col-md-5
         figure
           img(src="@/assets/curso/tema1/16.png" data-aos="fade-left")

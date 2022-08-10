@@ -52,7 +52,7 @@
                   iframe(width="560" height="315" src="https://www.youtube.com/embed/gBjpuvJfH_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           #caja2_tema2(style="display:none;")
             h4(style="color:#43A99B;border-left:7px #43A99B solid;padding:10px;") Interés
-            p.mt-4 Luego de llamar la atención se evidencia que a varios clientes mostraron interés por el producto o servicio expuesto, ahí se debe incrementar la atención para estos clientes para volverlos en clientes potenciales.
+            p.mt-4 Luego de llamar la atención se evidencia que varios clientes mostraron interés por el producto o servicio expuesto, ahí se debe incrementar la atención para estos clientes para volverlos en clientes potenciales.
             p.mt-5 #[strong Objetivo fase:]
             p Mostrar a los clientes interesados los beneficios del producto o servicio para que aumenten su interés.
             a.boton.color-primario.texto-blanco.mt-5(@click.prevent="modal_tema2_2 = true")
